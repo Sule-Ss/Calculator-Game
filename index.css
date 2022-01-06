@@ -1,0 +1,61 @@
+body{
+    color: #fff;
+    background-color: rgb(29, 136, 179);
+    background-image: url("./space.jpg");
+    background-size: 1400px  1000px;
+}
+
+#game{
+    width: 350px;
+    background-color: rgb(18, 3, 72);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;  
+}
+
+h1{
+    margin: 0 0 18px 0;
+    border: solid 1px #fff;
+    padding: 5px;
+    font-weight: 400;
+
+}
+
+span{
+    font-size: 110%;
+    padding : 12px;
+}
+
+#result{
+    width: 100px;
+    height: 22px;
+}
+
+#answer{
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    width: 70px;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+#answer:hover{
+    background: turquoise;
+}
+
+#True,#False{
+    font-size: 150%;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;    
+}
+
+#True{
+    background-color: green;
+}
+
+#False{
+    background-color: red;
+}

@@ -1,6 +1,6 @@
 body{
     color: #fff;
-    background-color: rgb(29, 136, 179);
+    background-color: rgb(126, 214, 249);
     /*background-image: url("./space.jpg");*/
     background-size: 1400px  1000px;
 }
@@ -12,6 +12,8 @@ body{
     text-align: center;
     margin: auto;
     margin-top: 200px;  
+    border-radius: 1rem;
+    box-shadow: 5px 10px 8px #0366a9;
 }
 
 h1{
@@ -30,6 +32,7 @@ span{
 #result{
     width: 100px;
     height: 22px;
+    outline: none;
 }
 
 #answer{
